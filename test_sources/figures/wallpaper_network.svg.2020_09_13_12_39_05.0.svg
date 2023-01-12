@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="991.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-496.000000 -486.000000 991.000000 971.000000" height="971.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="3.0"
+              d="M -203.830978,77.762955 L -151.953308,-149.681992"
+              class="id_verticalwallpapers id_wallpaperrequests"
+              stroke-opacity="1.0" stroke="#bbd5e1"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -149.951904,-158.456635 L -201.829575,68.988304"
+              class="id_wallpaperrequests id_verticalwallpapers"
+              stroke-opacity="1.0" stroke="#fdc885"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#bbd5e1" fill-opacity="1.0"
+                  class="id_verticalwallpapers id_wallpaperrequests"
+                  points="-149.951904,-158.456635 -147.565979,-148.681290 -156.340637,-150.682693"
+                  stroke="none"/>
+        <polyline fill="#fdc885" fill-opacity="1.0"
+                  class="id_wallpaperrequests id_verticalwallpapers"
+                  points="-203.830978,77.762955 -206.216904,67.987602 -197.442245,69.989006"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="-206.16594"
+                class="id_verticalwallpapers" cy="88.00004" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="-147.61694"
+                class="id_wallpaperrequests" cy="-168.69373" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="416.1298"
+                class="id_animewallpaper" cy="253.27272" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="-485.57513"
+                class="id_iphonewallpapers" cy="39.70405" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="-364.19586"
+                class="id_iwallpaper" cy="323.4916" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="20.13232"
+                class="id_lolwallpaper" cy="223.54916" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="195.20241"
+                class="id_minimalwallpaper" cy="446.39557" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="484.8216"
+                class="id_mobilewallpaper" cy="-47.644806" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="-112.373276"
+                class="id_nsfw_wallpapers" cy="474.0666" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="369.54343"
+                class="id_offensive_wallpapers" cy="-317.48987" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="218.62355"
+                class="id_phonewallpapers" cy="49.865524" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="-420.27313"
+                class="id_ultrahdwallpapers" cy="-246.45674" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="-187.77164"
+                class="id_wallpaper" cy="-449.46225" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="115.07638"
+                class="id_wallpaperdump" cy="-192.70969" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c0c0c0" r="10.0" cx="104.44248"
+                class="id_wallpapers" cy="-475.88815" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="36" x="-206.16594" y="96.23246" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_verticalwallpapers">
+            verticalwallpapers
+        </text>
+        <text font-size="36" x="-147.61694" y="-160.4613" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_wallpaperrequests">
+            wallpaperrequests
+        </text>
+        <text font-size="36" x="416.1298" y="261.50513" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_animewallpaper">
+            animewallpaper
+        </text>
+        <text font-size="36" x="-485.57513" y="47.93647" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_iphonewallpapers">
+            iphonewallpapers
+        </text>
+        <text font-size="36" x="-364.19586" y="331.72403" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_iwallpaper">
+            iwallpaper
+        </text>
+        <text font-size="36" x="20.13232" y="231.78159" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_lolwallpaper">
+            lolwallpaper
+        </text>
+        <text font-size="36" x="195.20241" y="454.628" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_minimalwallpaper">
+            minimalwallpaper
+        </text>
+        <text font-size="36" x="484.8216" y="-39.412384" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_mobilewallpaper">
+            mobilewallpaper
+        </text>
+        <text font-size="36" x="-112.373276" y="482.41034" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_nsfw_wallpapers">
+            nsfw_wallpapers
+        </text>
+        <text font-size="36" x="369.54343" y="-309.14612" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_offensive_wallpapers">
+            offensive_wallpapers
+        </text>
+        <text font-size="36" x="218.62355" y="58.097946" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_phonewallpapers">
+            phonewallpapers
+        </text>
+        <text font-size="36" x="-420.27313" y="-238.22432" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_ultrahdwallpapers">
+            ultrahdwallpapers
+        </text>
+        <text font-size="36" x="-187.77164" y="-441.22983" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_wallpaper">
+            wallpaper
+        </text>
+        <text font-size="36" x="115.07638" y="-184.47726" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_wallpaperdump">
+            wallpaperdump
+        </text>
+        <text font-size="36" x="104.44248" y="-467.65573" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_wallpapers">
+            wallpapers
+        </text>
+    </g>
+</svg>

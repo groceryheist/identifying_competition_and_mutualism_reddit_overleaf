@@ -1,0 +1,14 @@
+source,target,ignore,eco.type
+energy,environment,"",mutualism
+energy,renewableenergy,"",mutualism
+energy,volt,"",competition
+environment,energy,"",mutualism
+environment,solar,"",competition
+environment,volt,"",mutualism
+renewableenergy,environment,"",mutualism
+renewableenergy,solar,"",mutualism
+renewableenergy,volt,"",competition
+solar,environment,"",competition
+solar,volt,"",mutualism
+volt,energy,"",mutualism
+volt,renewableenergy,"",competition

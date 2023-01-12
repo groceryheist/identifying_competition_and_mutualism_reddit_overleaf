@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="design_network.svg"
+   id="svg146"
+   version="1.1"
+   preserveAspectRatio="xMidYMid meet"
+   height="667.5658"
+   viewBox="-257 -267 710.05463 667.5658"
+   contentStyleType="text/css"
+   zoomAndPan="magnify"
+   width="710.05463"
+   contentScriptType="text/ecmascript">
+  <metadata
+     id="metadata152">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs150" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg146"
+     inkscape:window-maximized="0"
+     inkscape:window-y="18"
+     inkscape:window-x="1920"
+     inkscape:cy="345.42928"
+     inkscape:cx="286.87678"
+     inkscape:zoom="1.2248573"
+     showgrid="false"
+     id="namedview148"
+     inkscape:window-height="2538"
+     inkscape:window-width="1436"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     transform="translate(72.178757,32.345032)"
+     id="edges">
+    <path
+       sodipodi:nodetypes="csc"
+       id="path58"
+       stroke="#ffcc84"
+       stroke-opacity="1"
+       class="id_onejob id_assholedesign"
+       d="m -208.16182,124.42063 c 0,0 107.20749,45.78439 161.186659,61.78612 51.3255108,15.21507 153.429751,32.20194 153.429751,32.20194"
+       stroke-width="6"
+       fill="none" />
+    <path
+       sodipodi:nodetypes="csc"
+       id="path60"
+       stroke="#ffcc84"
+       stroke-opacity="1"
+       class="id_onejob id_notmyjob"
+       d="m -209.03253,116.33627 c 0,0 137.116825,-83.59147 206.3364378,-121.5827196 C 61.441876,-40.448634 189.23372,-103.76705 189.23372,-103.76705"
+       stroke-width="6"
+       fill="none" />
+    <path
+       sodipodi:nodetypes="csc"
+       id="path62"
+       stroke="#ffcc84"
+       stroke-opacity="1"
+       class="id_assholedesign id_notmyjob"
+       d="m 141.85646,218.04924 c 0,0 39.59183,-110.25589 52.06426,-167.319713 9.87239,-45.1680663 17.80218,-137.555974 17.80218,-137.555974"
+       stroke-width="6"
+       fill="none" />
+    <path
+       id="path64"
+       stroke="#5f8dd3"
+       stroke-opacity="1"
+       class="id_crappydesign id_expectationvsreality"
+       d="M -236.54895,-60.87323 -48.978199,-79.579063"
+       stroke-width="6"
+       fill="none" />
+    <path
+       id="path66"
+       stroke="#5f8dd3"
+       stroke-opacity="1"
+       class="id_crappydesign id_onejob"
+       d="m -245.35075,-49.461143 21.71879,136.803001"
+       stroke-width="6"
+       fill="none" />
+    <path
+       id="path68"
+       stroke="#5f8dd3"
+       stroke-opacity="1"
+       class="id_mildlyinfuriating id_expectationvsreality"
+       d="M 237.06844,55.583881 15.57375,-66.36335"
+       stroke-width="6"
+       fill="none" />
+    <path
+       sodipodi:nodetypes="csc"
+       id="path70"
+       stroke="#5f8dd3"
+       stroke-opacity="1"
+       class="id_notmyjob id_assholedesign"
+       d="m 223.33379,-108.175 c 0,0 -46.09337,104.3449207 -58.0636,159.151293 C 154.6896,99.420148 147.21742,194.65565 147.21742,194.65565"
+       stroke-width="6"
+       fill="none" />
+    <path
+       sodipodi:nodetypes="csc"
+       id="path72"
+       stroke="#5f8dd3"
+       stroke-opacity="1"
+       class="id_assholedesign id_onejob"
+       d="m 129.45038,225.27843 c 0,0 -110.016032,-51.17109 -165.147156,-67.29151 C -86.953781,142.9993 -185.16603,131.29036 -185.16603,131.29036"
+       stroke-width="6"
+       fill="none" />
+    <path
+       id="path74"
+       stroke="#5f8dd3"
+       stroke-opacity="1"
+       class="id_notmyjob id_expectationvsreality"
+       d="M 209.06114,-118.79585 19.418224,-88.453278"
+       stroke-width="6"
+       fill="none" />
+    <path
+       sodipodi:nodetypes="csc"
+       id="path76"
+       stroke="#5f8dd3"
+       stroke-opacity="1"
+       class="id_notmyjob id_onejob"
+       d="m 210.23932,-115.37588 c 0,0 -130.14182,93.180165 -199.360426,131.099548 -64.559886,35.36724 -198.905824,89.003772 -198.905824,89.003772"
+       stroke-width="6"
+       fill="none" />
+    <path
+       id="path78"
+       stroke="#5f8dd3"
+       stroke-opacity="1"
+       class="id_mildlyinfuriating id_onejob"
+       d="M 235.85522,62.010082 -184.01399,116.93977"
+       stroke-width="6"
+       fill="none" />
+  </g>
+  <g
+     transform="translate(72.178757,32.345032)"
+     id="arrows">
+    <polyline
+       id="polyline81"
+       stroke="none"
+       points="129.450378,225.278427 103.019722,229.906586 109.889458,206.910797"
+       class="id_onejob id_assholedesign"
+       fill-opacity="1"
+       fill="#ffcc84" />
+    <polyline
+       id="polyline83"
+       stroke="none"
+       points="210.239319,-115.375877 195.038132,-93.264252 183.429306,-114.269852"
+       class="id_onejob id_notmyjob"
+       fill-opacity="1"
+       fill="#ffcc84" />
+    <polyline
+       id="polyline85"
+       stroke="none"
+       points="217.083862,-110.220039 223.419693,-84.145966 200.026108,-89.506927"
+       class="id_assholedesign id_notmyjob"
+       fill-opacity="1"
+       fill="#ffcc84" />
+    <polyline
+       id="polyline87"
+       stroke="none"
+       points="-25.096659,-81.960693 -47.787384,-67.638290 -50.169014,-91.519836"
+       class="id_crappydesign id_expectationvsreality"
+       fill-opacity="1"
+       fill="#5f8dd3" />
+    <polyline
+       id="polyline89"
+       stroke="none"
+       points="-219.868851,111.044998 -235.483536,89.223412 -211.780380,85.460304"
+       class="id_crappydesign id_onejob"
+       fill-opacity="1"
+       fill="#5f8dd3" />
+    <polyline
+       id="polyline91"
+       stroke="none"
+       points="-5.450415,-77.938522 21.361336,-76.875435 9.786166,-55.851269"
+       class="id_mildlyinfuriating id_expectationvsreality"
+       fill-opacity="1"
+       fill="#5f8dd3" />
+    <polyline
+       id="polyline93"
+       stroke="none"
+       points="141.856461,218.049240 135.520630,191.975174 158.914215,197.336136"
+       class="id_notmyjob id_assholedesign"
+       fill-opacity="1"
+       fill="#5f8dd3" />
+    <polyline
+       id="polyline95"
+       stroke="none"
+       points="-208.161819,124.420631 -181.731171,119.792458 -188.600891,142.788254"
+       class="id_assholedesign id_onejob"
+       fill-opacity="1"
+       fill="#5f8dd3" />
+    <polyline
+       id="polyline97"
+       stroke="none"
+       points="-4.280356,-84.661537 17.522356,-100.302567 21.314093,-76.603989"
+       class="id_notmyjob id_expectationvsreality"
+       fill-opacity="1"
+       fill="#5f8dd3" />
+    <polyline
+       id="polyline99"
+       stroke="none"
+       points="-209.032532,116.336266 -193.831345,94.224640 -182.222519,115.230240"
+       class="id_notmyjob id_onejob"
+       fill-opacity="1"
+       fill="#5f8dd3" />
+    <polyline
+       id="polyline101"
+       stroke="none"
+       points="-207.811203,120.053062 -185.570633,105.041168 -182.457352,128.838379"
+       class="id_mildlyinfuriating id_onejob"
+       fill-opacity="1"
+       fill="#5f8dd3" />
+  </g>
+  <circle
+     fill-opacity="1"
+     fill="#000000"
+     r="10"
+     cx="-146.04373"
+     class="id_onejob"
+     cy="153.76016"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle104" />
+  <circle
+     fill-opacity="1"
+     fill="#000000"
+     r="10"
+     cx="211.6898"
+     class="id_assholedesign"
+     cy="260.62897"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle106" />
+  <circle
+     fill-opacity="1"
+     fill="#000000"
+     r="10"
+     cx="291.60803"
+     class="id_notmyjob"
+     cy="-88.109695"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle108" />
+  <circle
+     fill-opacity="1"
+     fill="#000000"
+     r="10"
+     cx="-174.81836"
+     class="id_crappydesign"
+     cy="-27.486237"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle110" />
+  <circle
+     fill-opacity="1"
+     fill="#000000"
+     r="10"
+     cx="57.53027"
+     class="id_expectationvsreality"
+     cy="-50.657623"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle112" />
+  <circle
+     fill-opacity="1"
+     fill="#000000"
+     r="10"
+     cx="318.44525"
+     class="id_mildlyinfuriating"
+     cy="92.99305"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle114" />
+  <circle
+     fill-opacity="1"
+     fill="#000000"
+     r="10"
+     cx="-68.176193"
+     class="id_dataisugly"
+     cy="-256.5"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle116" />
+  <circle
+     fill-opacity="1"
+     fill="#000000"
+     r="10"
+     cx="-4.6229401"
+     class="id_designporn"
+     cy="288.63953"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle118" />
+  <circle
+     fill-opacity="1"
+     fill="#000000"
+     r="10"
+     cx="149.75603"
+     class="id_softwaregore"
+     cy="-223.70587"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle120" />
+  <circle
+     fill-opacity="1"
+     fill="#000000"
+     r="10"
+     cx="-97.580612"
+     class="id_wellthatsucks"
+     cy="-166.11194"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle122" />
+  <text
+     font-size="28px"
+     x="-146.04373"
+     y="200.24518"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_onejob"
+     id="text125">onejob</text>
+  <text
+     font-size="28px"
+     x="211.6898"
+     y="287.11401"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_assholedesign"
+     id="text127">assholedesign</text>
+  <text
+     font-size="28px"
+     x="311.60803"
+     y="-121.62468"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_notmyjob"
+     id="text129">notmyjob</text>
+  <text
+     font-size="28px"
+     x="-174.81836"
+     y="-61.001205"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_crappydesign"
+     id="text131">crappydesign</text>
+  <text
+     font-size="28px"
+     x="57.53027"
+     y="-84.1726"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_expectationvsreality"
+     id="text133">expectationvsreality</text>
+  <text
+     font-size="28px"
+     x="358.44525"
+     y="139.56467"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_mildlyinfuriating"
+     id="text135">mildlyinfuriating</text>
+  <text
+     font-size="28px"
+     x="-68.176193"
+     y="-230.01495"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_dataisugly"
+     id="text137">dataisugly</text>
+  <text
+     font-size="28px"
+     x="-4.6229401"
+     y="255.12454"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_designporn"
+     id="text139">designporn</text>
+  <text
+     font-size="28px"
+     x="149.75603"
+     y="-205.13426"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_softwaregore"
+     id="text141">softwaregore</text>
+  <text
+     font-size="28px"
+     x="-97.580612"
+     y="-141.01917"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_wellthatsucks"
+     id="text143">wellthatsucks</text>
+  <path
+     style="fill:#5f8dd3;fill-opacity:1;stroke:#5f8dd3;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m -217.06884,331.78685 h 48.03716"
+     id="path67" />
+  <text
+     id="text273-6"
+     class="id_minimalwallpaper"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="331.63583"
+     x="-90.975929"
+     font-size="28px"><tspan
+       sodipodi:role="line"
+       id="tspan907"
+       x="-90.975929"
+       y="331.63583">Mutualism</tspan><tspan
+       sodipodi:role="line"
+       id="tspan909"
+       x="-90.975929"
+       y="366.63583" /></text>
+  <path
+     id="path67-7"
+     d="m -217.09125,371.03157 h 48.03716"
+     style="fill:#ffcc84;fill-opacity:1;stroke:#ffcc84;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     font-size="28px"
+     x="-78.998329"
+     y="372.88058"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_minimalwallpaper"
+     id="text273-6-5"><tspan
+       y="372.88058"
+       x="-78.998329"
+       id="tspan907-3"
+       sodipodi:role="line">Competition</tspan><tspan
+       y="407.88058"
+       x="-78.998329"
+       sodipodi:role="line"
+       id="tspan935" /><tspan
+       y="442.88058"
+       x="-78.998329"
+       id="tspan909-5"
+       sodipodi:role="line" /></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect937"
+     width="290.24771"
+     height="93.894508"
+     x="-250.20024"
+     y="305.6713" />
+</svg>

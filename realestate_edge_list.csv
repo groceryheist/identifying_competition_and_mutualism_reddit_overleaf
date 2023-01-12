@@ -1,0 +1,14 @@
+source,target,ignore,eco.type
+commercialrealestate,realestate,"",competition
+commercialrealestate,realestateinvesting,"",competition
+fatfire,commercialrealestate,"",competition
+fatfire,financialindependence,"",competition
+financialindependence,realestate,"",mutualism
+financialplanning,realestate,"",mutualism
+realestate,commercialrealestate,"",competition
+realestate,financialindependence,"",mutualism
+realestate,financialplanning,"",mutualism
+realestate,realestateinvesting,"",competition
+realestateinvesting,commercialrealestate,"",competition
+realestateinvesting,financialindependence,"",mutualism
+realestateinvesting,realestate,"",competition

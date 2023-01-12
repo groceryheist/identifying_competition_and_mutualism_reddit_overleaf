@@ -1,0 +1,10 @@
+source,target,ignore,eco.type
+shittytechnicals,tankporn,"",competition
+tankporn,shittytechnicals,"",competition
+tankporn,tanks,"",mutualism
+tanks,warthunder,"",competition
+warthunder,shittytechnicals,"",competition
+warthunder,tanks,"",mutualism
+worldoftanks,shittytechnicals,"",competition
+worldoftanks,tanks,"",competition
+worldoftanks,warthunder,"",mutualism

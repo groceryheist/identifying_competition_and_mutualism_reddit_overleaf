@@ -1,0 +1,11 @@
+source,target,ignore,eco.type
+askmrp,redpillwomen,"",competition
+asktrp,askmrp,"",mutualism
+marriedredpill,askmrp,"",mutualism
+marriedredpill,asktrp,"",mutualism
+marriedredpill,redpillwomen,"",competition
+redpillwomen,asktrp,"",mutualism
+theredpill,askmrp,"",mutualism
+theredpill,asktrp,"",mutualism
+theredpill,marriedredpill,"",mutualism
+theredpill,redpillwomen,"",mutualism

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="design_network.svg"
+   id="svg486"
+   version="1.1"
+   preserveAspectRatio="xMidYMid meet"
+   height="711.24744"
+   viewBox="-429 -402 877.11536 711.24744"
+   contentStyleType="text/css"
+   zoomAndPan="magnify"
+   width="877.11536"
+   contentScriptType="text/ecmascript">
+  <metadata
+     id="metadata492">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs490" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg486"
+     inkscape:window-maximized="0"
+     inkscape:window-y="18"
+     inkscape:window-x="1920"
+     inkscape:cy="172.86651"
+     inkscape:cx="513.80226"
+     inkscape:zoom="0.77799249"
+     showgrid="false"
+     id="namedview488"
+     inkscape:window-height="2538"
+     inkscape:window-width="1436"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     sodipodi:nodetypes="csc"
+     fill="none"
+     stroke-width="6"
+     d="m -234.05167,-267.64703 c 0,0 -59.1964,89.91839 -82.13863,138.41678 -19.88458,42.034685 -47.59254,131.1325815 -47.59254,131.1325815"
+     class="id_assholedesign id_onejob"
+     stroke-opacity="1"
+     stroke="#fdc885"
+     id="path398" />
+  <path
+     sodipodi:nodetypes="csc"
+     fill="none"
+     stroke-width="6"
+     d="m 55.035226,-347.60303 c 0,0 -149.223905,110.22709 -219.051386,171.1348 -66.78813,58.2566 -190.6263,185.3428895 -190.6263,185.3428895"
+     class="id_notmyjob id_onejob"
+     stroke-opacity="1"
+     stroke="#fdc885"
+     id="path400" />
+  <path
+     sodipodi:nodetypes="csc"
+     fill="none"
+     stroke-width="6"
+     d="m 52.805683,-351.80951 c 0,0 -87.682777,43.43391 -134.783552,55.21308 -38.994741,9.75198 -119.968481,12.1976 -119.968481,12.1976"
+     class="id_notmyjob id_assholedesign"
+     stroke-opacity="1"
+     stroke="#fdc885"
+     id="path402" />
+  <path
+     fill="none"
+     stroke-width="6"
+     d="M 157.05914,76.323508 -52.287292,4.9285975"
+     class="id_expectationvsreality id_crappydesign"
+     stroke-opacity="1"
+     stroke="#bbd5e1"
+     id="path404" />
+  <path
+     fill="none"
+     stroke-width="6"
+     d="M -365.70251,26.462654 -107.59914,-1.2302755"
+     class="id_onejob id_crappydesign"
+     stroke-opacity="1"
+     stroke="#bbd5e1"
+     id="path406" />
+  <path
+     fill="none"
+     stroke-width="6"
+     d="M 171.67651,70.31309 313.77347,-215.12067"
+     class="id_expectationvsreality id_mildlyinfuriating"
+     stroke-opacity="1"
+     stroke="#bbd5e1"
+     id="path408" />
+  <path
+     sodipodi:nodetypes="csc"
+     fill="none"
+     stroke-width="6"
+     d="m -219.34744,-279.79428 c 0,0 80.9589,-45.55783 125.425451,-57.07315 41.865326,-10.84168 129.32658,-10.33753 129.32658,-10.33753"
+     class="id_assholedesign id_notmyjob"
+     stroke-opacity="1"
+     stroke="#bbd5e1"
+     id="path410" />
+  <path
+     sodipodi:nodetypes="csc"
+     fill="none"
+     stroke-width="6"
+     d="m -371.58899,18.121581 c 0,0 70.41473,-93.694956 94.43398,-146.640221 17.6102,-38.81792 35.29719,-122.90916 35.29719,-122.90916"
+     class="id_onejob id_assholedesign"
+     stroke-opacity="1"
+     stroke="#bbd5e1"
+     id="path412" />
+  <path
+     fill="none"
+     stroke-width="6"
+     d="M 164.55045,69.501757 69.597239,-326.78003"
+     class="id_expectationvsreality id_notmyjob"
+     stroke-opacity="1"
+     stroke="#bbd5e1"
+     id="path414" />
+  <path
+     sodipodi:nodetypes="csc"
+     fill="none"
+     stroke-width="6"
+     d="m -368.2215,20.690333 c 0,0 166.01213,-107.666868 239.82834,-172.989593 62.414741,-55.23314 169.849366,-183.48809 169.849366,-183.48809"
+     class="id_onejob id_notmyjob"
+     stroke-opacity="1"
+     stroke="#bbd5e1"
+     id="path416" />
+  <path
+     fill="none"
+     stroke-width="6"
+     d="M -366.33304,23.838117 299.84879,-230.46982"
+     class="id_onejob id_mildlyinfuriating"
+     stroke-opacity="1"
+     stroke="#bbd5e1"
+     id="path418" />
+  <polyline
+     transform="translate(42.622681,36.692225)"
+     fill="#fdc885"
+     fill-opacity="1"
+     class="id_assholedesign id_onejob"
+     points="-414.211670,-18.570644 -414.515137,-38.692966 -398.295898,-30.886820"
+     stroke="none"
+     id="polyline421" />
+  <polyline
+     transform="translate(42.622681,36.692225)"
+     fill="#fdc885"
+     fill-opacity="1"
+     class="id_notmyjob id_onejob"
+     points="-410.844177,-16.001892 -403.172974,-34.607079 -391.357300,-21.028055"
+     stroke="none"
+     id="polyline423" />
+  <polyline
+     transform="translate(42.622681,36.692225)"
+     fill="#fdc885"
+     fill-opacity="1"
+     class="id_notmyjob id_assholedesign"
+     points="-261.970123,-316.486511 -246.871307,-329.791626 -242.266754,-312.390503"
+     stroke="none"
+     id="polyline425" />
+  <polyline
+     transform="translate(42.622681,36.692225)"
+     fill="#bbd5e1"
+     fill-opacity="1"
+     class="id_expectationvsreality id_crappydesign"
+     points="-111.946495,-37.573711 -92.004929,-40.281887 -97.815018,-23.245369"
+     stroke="none"
+     id="polyline427" />
+  <polyline
+     transform="translate(42.622681,36.692225)"
+     fill="#bbd5e1"
+     fill-opacity="1"
+     class="id_onejob id_crappydesign"
+     points="-132.324539,-39.842770 -149.261688,-28.973862 -151.181946,-46.871140"
+     stroke="none"
+     id="polyline429" />
+  <polyline
+     transform="translate(42.622681,36.692225)"
+     fill="#bbd5e1"
+     fill-opacity="1"
+     class="id_expectationvsreality id_mildlyinfuriating"
+     points="279.172607,-267.926575 279.207611,-247.801971 263.093964,-255.823822"
+     stroke="none"
+     id="polyline431" />
+  <polyline
+     transform="translate(42.622681,36.692225)"
+     fill="#bbd5e1"
+     fill-opacity="1"
+     class="id_assholedesign id_notmyjob"
+     points="10.183003,-388.501740 -4.915812,-375.196625 -9.520368,-392.597748"
+     stroke="none"
+     id="polyline433" />
+  <polyline
+     transform="translate(42.622681,36.692225)"
+     fill="#bbd5e1"
+     fill-opacity="1"
+     class="id_onejob id_assholedesign"
+     points="-276.674347,-304.339264 -276.370880,-284.216949 -292.590118,-292.023102"
+     stroke="none"
+     id="polyline435" />
+  <polyline
+     transform="translate(42.622681,36.692225)"
+     fill="#bbd5e1"
+     fill-opacity="1"
+     class="id_expectationvsreality id_notmyjob"
+     points="22.780294,-380.976776 35.726818,-365.569397 18.222298,-361.375122"
+     stroke="none"
+     id="polyline437" />
+  <polyline
+     transform="translate(42.622681,36.692225)"
+     fill="#bbd5e1"
+     fill-opacity="1"
+     class="id_onejob id_notmyjob"
+     points="12.412545,-384.295258 4.741362,-365.690063 -7.074313,-379.269104"
+     stroke="none"
+     id="polyline439" />
+  <polyline
+     transform="translate(42.622681,36.692225)"
+     fill="#bbd5e1"
+     fill-opacity="1"
+     class="id_onejob id_mildlyinfuriating"
+     points="274.042480,-273.581512 260.435852,-258.753876 254.016373,-275.570221"
+     stroke="none"
+     id="polyline441" />
+  <circle
+     fill-opacity="1"
+     fill="#c4c4c4"
+     r="10"
+     cx="-229.49808"
+     class="id_assholedesign"
+     cy="-277.10828"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle444" />
+  <circle
+     fill-opacity="1"
+     fill="#c4c4c4"
+     r="10"
+     cx="-376.14258"
+     class="id_onejob"
+     cy="27.582811"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle446" />
+  <circle
+     fill-opacity="1"
+     fill="#c4c4c4"
+     r="10"
+     cx="62.956322"
+     class="id_notmyjob"
+     cy="-354.49551"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle448" />
+  <circle
+     fill-opacity="1"
+     fill="#c4c4c4"
+     r="10"
+     cx="166.9971"
+     class="id_expectationvsreality"
+     cy="79.712723"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle450" />
+  <circle
+     fill-opacity="1"
+     fill="#c4c4c4"
+     r="10"
+     cx="-79.26178"
+     class="id_crappydesign"
+     cy="-4.2707033"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle452" />
+  <circle
+     fill-opacity="1"
+     fill="#c4c4c4"
+     r="10"
+     cx="326.4747"
+     class="id_mildlyinfuriating"
+     cy="-240.63397"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle454" />
+  <circle
+     fill-opacity="1"
+     fill="#c4c4c4"
+     r="10"
+     cx="-1.7147293"
+     class="id_dataisugly"
+     cy="178.63895"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle456" />
+  <circle
+     fill-opacity="1"
+     fill="#c4c4c4"
+     r="10"
+     cx="-255.76169"
+     class="id_designporn"
+     cy="263.40619"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle458" />
+  <circle
+     fill-opacity="1"
+     fill="#c4c4c4"
+     r="10"
+     cx="-1.2637024"
+     class="id_softwaregore"
+     cy="259.22699"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle460" />
+  <circle
+     fill-opacity="1"
+     fill="#c4c4c4"
+     r="10"
+     cx="-256.55881"
+     class="id_wellthatsucks"
+     cy="182.8631"
+     stroke="#000000"
+     stroke-opacity="1"
+     stroke-width="1"
+     id="circle462" />
+  <text
+     font-size="36px"
+     x="-289.49808"
+     y="-312.77039"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_assholedesign"
+     id="text465">assholedesign</text>
+  <text
+     font-size="36px"
+     x="-376.14258"
+     y="69.9207"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_onejob"
+     id="text467">onejob</text>
+  <text
+     font-size="36px"
+     x="62.956322"
+     y="-386.15762"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_notmyjob"
+     id="text469">notmyjob</text>
+  <text
+     font-size="36px"
+     x="166.9971"
+     y="122.05061"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_expectationvsreality"
+     id="text471">expectationvsreality</text>
+  <text
+     font-size="36px"
+     x="-97.26178"
+     y="42.067188"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_crappydesign"
+     id="text473">crappydesign</text>
+  <text
+     font-size="36px"
+     x="326.4747"
+     y="-272.18475"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_mildlyinfuriating"
+     id="text475">mildlyinfuriating</text>
+  <text
+     font-size="36px"
+     x="-1.7147293"
+     y="206.97684"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_dataisugly"
+     id="text477">dataisugly</text>
+  <text
+     font-size="36px"
+     x="-255.76169"
+     y="291.74408"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_designporn"
+     id="text479">designporn</text>
+  <text
+     font-size="36px"
+     x="-1.2637024"
+     y="287.67621"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_softwaregore"
+     id="text481">softwaregore</text>
+  <text
+     font-size="36px"
+     x="-256.55881"
+     y="209.41095"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_wellthatsucks"
+     id="text483">wellthatsucks</text>
+</svg>

@@ -1,0 +1,5 @@
+** TODO clustering validation
+   Compute mean and median silhouette coefficients for the clusters to show that the clustering is appropriate. https://en.wikipedia.org/wiki/Silhouette_(clustering)
+
+** TODO substantial reorganization 
+   Carefully read the reviews and manuscript and identify points of confusion

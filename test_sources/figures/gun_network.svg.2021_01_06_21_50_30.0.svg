@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   contentScriptType="text/ecmascript"
+   width="626.0"
+   zoomAndPan="magnify"
+   contentStyleType="text/css"
+   viewBox="-313.000000 -299.000000 626.000000 598.000000"
+   height="598.0"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg78"
+   sodipodi:docname="gun_network.svg">
+  <metadata
+     id="metadata84">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs82" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview80"
+     showgrid="false" />
+  <g
+     id="edges"
+     transform="translate(-8)">
+    <path
+       fill="none"
+       stroke-width="4"
+       d="M 295.46314,-59.947655 125.77482,-264.74615"
+       class="id_firearms id_dgu"
+       stroke-opacity="1"
+       stroke="#08a800"
+       id="path2" />
+    <path
+       fill="none"
+       stroke-width="4"
+       d="M 291.81372,-50.085606 -272.0307,46.723038"
+       class="id_firearms id_gunpolitics"
+       stroke-opacity="1"
+       stroke="#08a800"
+       id="path4" />
+    <path
+       fill="none"
+       stroke-width="4"
+       d="M 294.09265,-45.144436 -82.818871,268.63355"
+       class="id_firearms id_progun"
+       stroke-opacity="1"
+       stroke="#08a800"
+       id="path6" />
+    <path
+       fill="none"
+       stroke-width="4"
+       d="M -294.02237,45.164841 82.878372,-268.71384"
+       class="id_gunpolitics id_dgu"
+       stroke-opacity="1"
+       stroke="#08a800"
+       id="path8" />
+    <path
+       fill="none"
+       stroke-width="4"
+       d="M -291.74228,50.107395 -2.1493334,-32.855474 272.10214,-46.701248"
+       class="id_gunpolitics id_firearms"
+       stroke-opacity="1"
+       stroke="#08a800"
+       id="path10"
+       sodipodi:nodetypes="ccc" />
+    <path
+       fill="none"
+       stroke-width="4"
+       d="m -298.48947,42.021111 91.25171,-249.911061"
+       class="id_gunpolitics id_nowttyg"
+       stroke-opacity="1"
+       stroke="#08a800"
+       id="path12" />
+    <path
+       fill="none"
+       stroke-width="4"
+       d="M -295.39023,59.968224 -125.72295,264.66541"
+       class="id_gunpolitics id_progun"
+       stroke-opacity="1"
+       stroke="#08a800"
+       id="path14" />
+    <path
+       fill="none"
+       stroke-width="4"
+       d="M -190.06337,-228.46629 177.14862,213.15066"
+       class="id_nowttyg id_shitguncontrollerssay"
+       stroke-opacity="1"
+       stroke="#08a800"
+       id="path16" />
+    <path
+       fill="none"
+       stroke-width="4"
+       d="M -102.62596,278.29626 95.761581,-259.61609"
+       class="id_progun id_dgu"
+       stroke-opacity="1"
+       stroke="#08a800"
+       id="path18" />
+    <path
+       fill="none"
+       stroke-width="4"
+       d="M -112.95986,280.06357 -282.62717,75.366394"
+       class="id_progun id_gunpolitics"
+       stroke-opacity="1"
+       stroke="#08a800"
+       id="path20" />
+    <path
+       fill="none"
+       stroke-width="4"
+       d="M 186.2979,238.36378 -76.191475,283.03104"
+       class="id_shitguncontrollerssay id_progun"
+       stroke-opacity="1"
+       stroke="#f05d00"
+       id="path22" />
+    <path
+       fill="none"
+       stroke-width="4"
+       d="M 186.2979,238.36378 -76.191475,283.03104"
+       class="id_shitguncontrollerssay id_progun"
+       stroke-opacity="1"
+       stroke="#08a800"
+       id="path24" />
+  </g>
+  <g
+     id="arrows"
+     transform="translate(-8)">
+    <polyline
+       fill="#08a800"
+       fill-opacity="1"
+       class="id_firearms id_dgu"
+       points="113.014542,-280.146667 133.475067,-271.126282 118.074570,-258.366028"
+       stroke="none"
+       id="polyline27" />
+    <polyline
+       fill="#08a800"
+       fill-opacity="1"
+       class="id_firearms id_gunpolitics"
+       points="-291.742279,50.107395 -273.722870,36.867249 -270.338531,56.578827"
+       stroke="none"
+       id="polyline29" />
+    <polyline
+       fill="#08a800"
+       fill-opacity="1"
+       class="id_firearms id_progun"
+       points="-98.189606,281.429657 -89.216927,260.948181 -76.420815,276.318909"
+       stroke="none"
+       id="polyline31" />
+    <polyline
+       fill="#08a800"
+       fill-opacity="1"
+       class="id_gunpolitics id_dgu"
+       points="98.246918,-281.512604 89.277748,-261.029572 76.478996,-276.398102"
+       stroke="none"
+       id="polyline33" />
+    <polyline
+       fill="#08a800"
+       fill-opacity="1"
+       class="id_gunpolitics id_firearms"
+       points="291.813721,-50.085606 273.794312,-36.845459 270.409973,-56.557037"
+       stroke="none"
+       id="polyline35" />
+    <polyline
+       fill="#08a800"
+       fill-opacity="1"
+       class="id_gunpolitics id_nowttyg"
+       points="-200.378006,-226.676758 -197.844360,-204.460083 -216.631165,-211.319824"
+       stroke="none"
+       id="polyline37" />
+    <polyline
+       fill="#08a800"
+       fill-opacity="1"
+       class="id_gunpolitics id_progun"
+       points="-112.959862,280.063568 -133.422028,271.046936 -118.023857,258.283875"
+       stroke="none"
+       id="polyline39" />
+    <polyline
+       fill="#08a800"
+       fill-opacity="1"
+       class="id_nowttyg id_shitguncontrollerssay"
+       points="189.935822,228.528809 169.459549,219.544266 184.837692,206.757065"
+       stroke="none"
+       id="polyline41" />
+    <polyline
+       fill="#08a800"
+       fill-opacity="1"
+       class="id_progun id_dgu"
+       points="102.682114,-278.380585 105.143829,-256.155823 86.379333,-263.076355"
+       stroke="none"
+       id="polyline43" />
+    <polyline
+       fill="#08a800"
+       fill-opacity="1"
+       class="id_progun id_gunpolitics"
+       points="-295.390228,59.968224 -274.928070,68.984856 -290.326263,81.747932"
+       stroke="none"
+       id="polyline45" />
+    <polyline
+       fill="#f05d00"
+       fill-opacity="1"
+       class="id_shitguncontrollerssay id_progun"
+       points="-95.908051,286.386169 -77.869041,273.172760 -74.513908,292.889313"
+       stroke="none"
+       id="polyline47" />
+    <polyline
+       fill="#08a800"
+       fill-opacity="1"
+       class="id_shitguncontrollerssay id_progun"
+       points="-95.908051,286.386169 -77.869041,273.172760 -74.513908,292.889313"
+       stroke="none"
+       id="polyline49" />
+  </g>
+  <g
+     id="nodes"
+     transform="translate(-8)">
+    <circle
+       fill-opacity="1"
+       fill="#000000"
+       r="10"
+       cx="302.16229"
+       class="id_firearms"
+       cy="-51.862392"
+       stroke="#000000"
+       stroke-opacity="1"
+       stroke-width="1"
+       id="circle52" />
+    <circle
+       fill-opacity="1"
+       fill="#000000"
+       r="10"
+       cx="106.3154"
+       class="id_dgu"
+       cy="-288.23193"
+       stroke="#000000"
+       stroke-opacity="1"
+       stroke-width="1"
+       id="circle54" />
+    <circle
+       fill-opacity="1"
+       fill="#000000"
+       r="10"
+       cx="-302.09085"
+       class="id_gunpolitics"
+       cy="51.884182"
+       stroke="#000000"
+       stroke-opacity="1"
+       stroke-width="1"
+       id="circle56" />
+    <circle
+       fill-opacity="1"
+       fill="#000000"
+       r="10"
+       cx="-106.25925"
+       class="id_progun"
+       cy="288.14761"
+       stroke="#000000"
+       stroke-opacity="1"
+       stroke-width="1"
+       id="circle58" />
+    <circle
+       fill-opacity="1"
+       fill="#000000"
+       r="10"
+       cx="-196.77664"
+       class="id_nowttyg"
+       cy="-236.53983"
+       stroke="#000000"
+       stroke-opacity="1"
+       stroke-width="1"
+       id="circle60" />
+    <circle
+       fill-opacity="1"
+       fill="#000000"
+       r="10"
+       cx="196.64909"
+       class="id_shitguncontrollerssay"
+       cy="236.60234"
+       stroke="#000000"
+       stroke-opacity="1"
+       stroke-width="1"
+       id="circle62" />
+  </g>
+  <g
+     id="node-labels">
+    <text
+       font-size="28px"
+       x="338.16229"
+       y="-84.683029"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Arial"
+       class="id_firearms"
+       id="text65">firearms</text>
+    <text
+       font-size="28px"
+       x="98.315399"
+       y="-319.74692"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Arial"
+       class="id_dgu"
+       id="text67">dgu</text>
+    <text
+       font-size="28px"
+       x="-386.09085"
+       y="20.369209"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Arial"
+       class="id_gunpolitics"
+       id="text69">gunpolitics</text>
+    <text
+       font-size="28px"
+       x="-114.25925"
+       y="323.3338"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Arial"
+       class="id_progun"
+       id="text71">progun</text>
+    <text
+       font-size="28px"
+       x="-204.77664"
+       y="-268.16644"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Arial"
+       class="id_nowttyg"
+       id="text73">nowttyg</text>
+    <text
+       font-size="28px"
+       x="188.64909"
+       y="273.08737"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Arial"
+       class="id_shitguncontrollerssay"
+       id="text75">shitguncontrollerssay</text>
+  </g>
+</svg>

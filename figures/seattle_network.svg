@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   contentScriptType="text/ecmascript"
+   width="1114.5946"
+   zoomAndPan="magnify"
+   contentStyleType="text/css"
+   viewBox="-491 -508 1114.5946 1065.3625"
+   height="1065.3625"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg1100"
+   sodipodi:docname="seattle_network.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata1106">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1104" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1436"
+     inkscape:window-height="2538"
+     id="namedview1102"
+     showgrid="false"
+     inkscape:zoom="2.2817322"
+     inkscape:cx="1004.6391"
+     inkscape:cy="725.54182"
+     inkscape:window-x="1920"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1100" />
+  <path
+     id="path932"
+     stroke="#ffc840"
+     stroke-opacity="1"
+     class="id_seahawks id_eastside"
+     d="M -357.20047,162.73398 538.42102,42.082466"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path934"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_wwu id_washington"
+     d="m 282.34808,-82.76916 7.39398,-290.37292"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path936"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_mariners id_sealist"
+     d="m 274.03339,478.43431 -485.2331,-71.03189"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path938"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_bellingham"
+     d="m -364.79843,154.01825 125.44137,-451.97069"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path940"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seattle id_sealist"
+     d="M 46.645252,-181.23518 -229.90024,371.55098"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path942"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_spokane id_soundersfc"
+     d="M 491.52856,295.26335 -93.14568,12.357744"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path944"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_wwu id_bellingham"
+     d="m 272.71002,-77.0095 -472.0509,-238.62211"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path946"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_tacoma"
+     d="m -357.29852,166.13484 312.81057,60.66367"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path948"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_washington"
+     d="M -359.6795,157.25008 264.57455,-385.00636"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path950"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_wwu id_olympia"
+     d="M 276.2025,-80.97289 35.266659,-437.57634"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path952"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_olympia"
+     d="M -362.1481,155.16607 -1.9824448,-436.69118"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path954"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_spokane"
+     d="M -357.23233,165.75657 466.89374,294.51131"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path956"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_wwu id_udub"
+     d="m 271.59811,-72.87529 -629.9259,-36.21903"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path958"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_soundersfc"
+     d="M -358.94513,158.20022 -152.65988,16.833592"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path960"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_wwu id_wsu"
+     d="M 277.77272,-62.697048 29.985306,488.05702"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path962"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_spokane id_tacoma"
+     d="M 490.56778,298.48387 23.593487,237.81184"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path964"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_mariners"
+     d="M -358.15662,168.71297 253.37317,464.91591"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path966"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_seattle"
+     d="m -359.59341,157.35045 c 0,0 156.24933,-117.098028 230.24847,-180.67075 53.549085,-46.00406 154.359413,-145.01059 154.359413,-145.01059"
+     stroke-width="6"
+     fill="none"
+     sodipodi:nodetypes="csc" />
+  <path
+     id="path968"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_spokane id_mariners"
+     d="M 492.90759,306.55104 310.94713,457.89384"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path970"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_cascadia"
+     d="M -358.05713,159.77005 477.44952,-222.20523"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path972"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_spokane id_bellingham"
+     d="M 493.03156,292.97609 -204.01346,-308.65373"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path974"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_seajobs"
+     d="M -357.11218,164.48172 209.74165,183.1664"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path976"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_sealist"
+     d="M -362.81262,173.4776 -261.0871,371.71086"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path978"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_wsu"
+     d="M -359.90549,171.27336 -9.4730458,496.06743"
+     stroke-width="6"
+     fill="none" />
+  <path
+     id="path980"
+     stroke="#5f8dd3"
+     stroke-opacity="1"
+     class="id_seahawks id_udub"
+     d="M -368.56256,153.67942 -389.62942,-76.71804"
+     stroke-width="6"
+     fill="none" />
+  <polyline
+     id="polyline983"
+     stroke="none"
+     points="474.942017,7.452247 452.758942,22.548981 449.554779,-1.236169"
+     class="id_seahawks id_eastside"
+     fill-opacity="1"
+     fill="#ffc840"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline985"
+     stroke="none"
+     points="203.088837,-428.560364 214.474014,-404.262665 190.481796,-404.873627"
+     class="id_wwu id_washington"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline987"
+     stroke="none"
+     points="-322.210785,372.500092 -296.725739,364.102905 -300.201996,387.849792"
+     class="id_mariners id_sealist"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline989"
+     stroke="none"
+     points="-320.202789,-352.504333 -315.058289,-326.169312 -338.184143,-332.587708"
+     class="id_seahawks id_bellingham"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline991"
+     stroke="none"
+     points="-327.902252,361.588806 -327.896332,334.755981 -306.432465,345.493835"
+     class="id_seattle id_sealist"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline993"
+     stroke="none"
+     points="-202.013687,-29.521740 -175.183121,-29.870235 -185.636551,-8.266396"
+     class="id_spokane id_soundersfc"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline995"
+     stroke="none"
+     points="-308.023956,-357.884949 -281.191406,-357.767151 -292.018677,-336.348206"
+     class="id_wwu id_bellingham"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline997"
+     stroke="none"
+     points="-108.191071,199.941650 -134.036713,207.152954 -129.467499,183.591919"
+     class="id_seahawks id_tacoma"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline999"
+     stroke="none"
+     points="195.429169,-432.171234 185.179794,-407.373047 169.440994,-425.491821"
+     class="id_seahawks id_washington"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1001"
+     stroke="none"
+     points="-65.433601,-488.888885 -42.054276,-475.720459 -61.940727,-462.284363"
+     class="id_wwu id_olympia"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1003"
+     stroke="none"
+     points="-76.770287,-488.619476 -78.995491,-461.879089 -99.497719,-474.355408"
+     class="id_seahawks id_olympia"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1005"
+     stroke="none"
+     points="403.341949,266.789856 377.777252,274.941406 381.481903,251.229065"
+     class="id_seahawks id_spokane"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1007"
+     stroke="none"
+     points="-469.552368,-141.898056 -444.903107,-152.500595 -446.280792,-128.540176"
+     class="id_wwu id_udub"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1009"
+     stroke="none"
+     points="-220.126709,-28.159525 -233.140518,-4.693794 -246.707565,-24.491142"
+     class="id_seahawks id_soundersfc"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1011"
+     stroke="none"
+     points="-67.125893,478.517853 -68.222298,451.707428 -46.335411,461.554474"
+     class="id_wwu id_wsu"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1013"
+     stroke="none"
+     points="-87.470634,203.293533 -62.124557,194.485794 -65.216789,218.285751"
+     class="id_spokane id_tacoma"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1015"
+     stroke="none"
+     points="187.708649,443.951935 160.877960,444.289673 171.340057,422.690002"
+     class="id_seahawks id_mariners"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1017"
+     stroke="none"
+     points="-43.934143,-215.266342 -54.494995,-190.599182 -70.004379,-208.914734"
+     class="id_seahawks id_seattle"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1019"
+     stroke="none"
+     points="205.231155,441.814758 216.009460,417.241882 231.356476,435.693665"
+     class="id_spokane id_mariners"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1021"
+     stroke="none"
+     points="412.012482,-263.610168 395.174805,-242.717758 385.195923,-264.544861"
+     class="id_seahawks id_cascadia"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1023"
+     stroke="none"
+     points="-309.446045,-355.761261 -283.436890,-349.164032 -299.118347,-330.995575"
+     class="id_spokane id_bellingham"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1025"
+     stroke="none"
+     points="146.464478,152.530991 122.082161,163.733810 122.872826,139.746841"
+     class="id_seahawks id_seajobs"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1027"
+     stroke="none"
+     points="-337.393921,361.637451 -359.027588,345.763458 -337.674927,334.806122"
+     class="id_seahawks id_sealist"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1029"
+     stroke="none"
+     points="-79.134956,480.955780 -104.894424,473.442474 -88.579987,455.840240"
+     class="id_seahawks id_wsu"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <polyline
+     id="polyline1031"
+     stroke="none"
+     points="-479.078979,-132.044403 -464.943451,-109.236794 -488.843719,-107.051414"
+     class="id_seahawks id_udub"
+     fill-opacity="1"
+     fill="#5f8dd3"
+     transform="translate(87.26416,31.42606)" />
+  <circle
+     id="circle1034"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="164.13576"
+     class="id_seahawks"
+     cx="-367.60648"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1036"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="37.47649"
+     class="id_eastside"
+     cx="572.61218"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1038"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="-72.27256"
+     class="id_wwu"
+     cx="282.08081"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1040"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="-407.63095"
+     class="id_washington"
+     cx="290.6203"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1042"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="479.95511"
+     class="id_mariners"
+     cx="284.42267"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1044"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="402.40527"
+     class="id_sealist"
+     cx="-245.33591"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1046"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="-331.19586"
+     class="id_bellingham"
+     cx="-230.13058"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1048"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="-190.62567"
+     class="id_seattle"
+     cx="51.343067"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1050"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="299.83667"
+     class="id_spokane"
+     cx="500.98026"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1052"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="-2.6690531"
+     class="id_soundersfc"
+     cx="-124.2012"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1054"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="233.36671"
+     class="id_tacoma"
+     cx="-10.618958"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1056"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="-466.16318"
+     class="id_olympia"
+     cx="15.952263"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1058"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="-111.07472"
+     class="id_udub"
+     cx="-392.7709"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1060"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="519.51941"
+     class="id_wsu"
+     cx="15.830193"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1062"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="-236.5499"
+     class="id_cascadia"
+     cx="508.82599"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <circle
+     id="circle1064"
+     stroke-width="1"
+     stroke-opacity="1"
+     stroke="#000000"
+     cy="184.30293"
+     class="id_seajobs"
+     cx="244.22293"
+     r="10"
+     fill="#c0c0c0"
+     fill-opacity="1" />
+  <text
+     id="text1067"
+     class="id_seahawks"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="195.22853"
+     x="-429.60645"
+     font-size="28px">seahawks</text>
+  <text
+     id="text1069"
+     class="id_eastside"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="10.569263"
+     x="572.61218"
+     font-size="28px">eastside</text>
+  <text
+     id="text1071"
+     class="id_wwu"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="-68.560646"
+     x="328.08081"
+     font-size="28px">wwu</text>
+  <text
+     id="text1073"
+     class="id_washington"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="-435.14594"
+     x="290.6203"
+     font-size="28px">washington</text>
+  <text
+     id="text1075"
+     class="id_mariners"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="511.04788"
+     x="284.42267"
+     font-size="28px">mariners</text>
+  <text
+     id="text1077"
+     class="id_sealist"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="433.49805"
+     x="-245.33591"
+     font-size="28px">sealist</text>
+  <text
+     id="text1079"
+     class="id_bellingham"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="-360.71085"
+     x="-230.13058"
+     font-size="28px">bellingham</text>
+  <text
+     id="text1081"
+     class="id_seattle"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="-237.5329"
+     x="33.343067"
+     font-size="28px">seattle</text>
+  <g
+     id="g930">
+    <text
+       font-size="28px"
+       x="530.98022"
+       y="332.23965"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Arial"
+       class="id_spokane"
+       id="text1083">spokane</text>
+  </g>
+  <text
+     id="text1085"
+     class="id_soundersfc"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="32.510315"
+     x="-124.2012"
+     font-size="28px">soundersfc</text>
+  <text
+     id="text1087"
+     class="id_tacoma"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="264.34784"
+     x="-10.618958"
+     font-size="28px">tacoma</text>
+  <text
+     id="text1089"
+     class="id_olympia"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="-495.67816"
+     x="15.952263"
+     font-size="28px">olympia</text>
+  <text
+     id="text1091"
+     class="id_udub"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="-139.98198"
+     x="-392.7709"
+     font-size="28px">udub</text>
+  <text
+     id="text1093"
+     class="id_wsu"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="549.31335"
+     x="15.830193"
+     font-size="28px">wsu</text>
+  <text
+     id="text1095"
+     class="id_cascadia"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="-267.45712"
+     x="508.82599"
+     font-size="28px">cascadia</text>
+  <text
+     id="text1097"
+     class="id_seajobs"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="216.78796"
+     x="242.22293"
+     font-size="28px">seajobs</text>
+  <path
+     id="path67"
+     d="m -443.29353,478.57494 h 48.03716"
+     style="fill:#5f8dd3;fill-opacity:1;stroke:#5f8dd3;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     font-size="28px"
+     x="-317.20062"
+     y="478.42395"
+     fill="#000000"
+     style="dominant-baseline:central;text-anchor:middle"
+     font-family="Arial"
+     class="id_minimalwallpaper"
+     id="text273-6"><tspan
+       y="478.42395"
+       x="-317.20062"
+       id="tspan907"
+       sodipodi:role="line">Mutualism</tspan><tspan
+       y="513.42395"
+       x="-317.20062"
+       id="tspan909"
+       sodipodi:role="line" /></text>
+  <path
+     style="fill:#ffcc84;fill-opacity:1;stroke:#ffcc84;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m -443.31594,517.81966 h 48.03716"
+     id="path67-7" />
+  <text
+     id="text273-6-5"
+     class="id_minimalwallpaper"
+     font-family="Arial"
+     style="dominant-baseline:central;text-anchor:middle"
+     fill="#000000"
+     y="519.6687"
+     x="-305.22302"
+     font-size="28px"><tspan
+       sodipodi:role="line"
+       id="tspan907-3"
+       x="-305.22302"
+       y="519.6687">Competition</tspan><tspan
+       id="tspan935"
+       sodipodi:role="line"
+       x="-305.22302"
+       y="554.6687" /><tspan
+       sodipodi:role="line"
+       id="tspan909-5"
+       x="-305.22302"
+       y="589.6687" /></text>
+  <rect
+     y="452.45941"
+     x="-476.42493"
+     height="93.894508"
+     width="290.24771"
+     id="rect937"
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+</svg>

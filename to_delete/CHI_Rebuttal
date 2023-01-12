@@ -1,0 +1,39 @@
+Thanks to the reviewers and ACs for your careful attention to this submission. We appreciate the reviewers' positive feedback and constructive suggestions for improvement. We propose that making the following minor changes in advance of the camera-ready deadline will improve the manuscript and address the reviewer's concerns.  
+
+1.
+AC1 and R2 urge us to draw clear contrasts between community and population ecology. We will insert text at the beginning of §3 to clearly explain how the approaches differ in unit of analysis, measures, and goals: population ecology studies density dependence within populations while community ecology studies commensal relationships within dyads. We will carefully edit our paper's front-end to make this clear.
+
+In a related sense, AC1 and R1 ask how our approach compares to social network analysis.  Community ecology is a kind of network analysis where edges in the network are commensal relationships between groups. We will edit §3 to make this clear.  
+
+2.
+R2 asks why we don't mention VAR models until §4.  Although we mention them in passing in our introduction, we will revise §1 to better identify our key methodological contribution:  introducing VAR analysis to the ecological study of online communities and using a Bayesian model uniquely well-suited for participation data from online communities. 
+
+3.
+We will address R3's request to justify details of our mathematical approach by clearly documenting how modeling decisions that appeared arbitrary are borrowed from previous work in biology. We will incorporate R2's helpful feedback about our mathematical notation. We will describe matrix B as the coefficients of additional predictors, correct equation 1 to have λₜ on the left-hand-side and make it clear that Yₜ is Poisson distributed with parameter λₜ. As per R3, we will edit our text to more clearly connect our formalism to our concepts and terms.
+
+4.
+R2 suggests that we compare results from our method with a baseline and suggests that we look at population ecology for that baseline. Because our method relies on time series analysis, doing so would mean developing a time-series population ecology model which would depart from population ecology approaches in prior social computing research.
+
+While we did not report this in the paper, we had previously fit baseline models that have only autoregressive terms (no off-diagonal entries in the community matrix). These model serve as a baseline because they allow the comparison of models that account for commensal relationships with ones that do not.   
+
+We will edit §4 to describe the baseline model and will report the continuous ranked probability score (CRPS) metric of each of our VAR models relative to the baselines in §6 to show that community ecology models improve forecasting of future participation rates.  
+
+5.
+R2 urged us to frame our results in terms of the ecological fallacy. Although the term is potentially confusing in our context, R2 is correct that part of our critique of ecological research in social computing is that it commits the fallacy by aggregating many individual relationships into an average correlation. We emphasize this point and employ the term 'ecological fallacy' as we clarify the difference between population and community ecologies approaches in §3. 
+
+6.
+R3 points to overreaching claims in our case studies. We will tone down these claims in the way that R3 suggests. R3 is correct: although our methods identify correlational structures between groups that are consistent with mutualism and/or competition, there are many possible mechanisms that might drive these relationships. We will edit our results to clarify that the mutualistic relationships between communities we observe might or might not be driven by user or topical overlaps.
+
+7.
+In a closely related sense, R3 asks for the justification of our case selection and qualitative evidence that subreddits considered in each study are related. We will edit §6 to clarify our goal with the case studies and to explain that we do not assume any relationship \textit{ex ante}. Indeed, identifying the presence or absence of relationships is the goal of our method. We will explain that we present the three cases to demonstrate the diversity of ecological communities that can be found—including communities with no relationships at all. We will also clarify that we visited each subreddit to ensure the accuracy of claims such as our statement that the wallpaper subreddits /r/wallpaper and /r/wallpapers are similar wallpaper focused groups.
+
+8.
+R3 suggests that our method cannot be applied to communities on different platforms. As we stated in §8, since our method requires only time-series data on participation, it can indeed be applied to communities on different platforms from which such data can be obtained. We will reinforce this point by suggesting that future work could apply our model to study relationships between subreddits and wikis on similar topics.
+
+In a similar vein, R1 asks us to consider the range of online communities that our approach can be applied to. We will clarify that our method is broadly applicable to any online site or space where people participate in groups including Facebook and LinkedIn groups, Youtube Channels, Twitter Hashtags and so on.
+
+10.
+We will reformat our figures so they are readable.
+
+11.
+R3 suggests a more clear and concise presentation of how theoretical definitions correspond to our model.  We will revise Table 1 to make it clear that A→B and B→A correspond to coefficients in the community matrix.

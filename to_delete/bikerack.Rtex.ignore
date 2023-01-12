@@ -1,0 +1,295 @@
+
+\section{Simulating an ecological community}
+
+\begin{figure}
+
+<<simulation_coef,results='asis',echo=F,fig.height=2.5,fig.width=3.5,message=F>>=
+
+    stats <- copy(simulation.phi.stats.95)
+    median <- t(stats$medians[,,])
+    upper <- t(stats$upper[,,])
+    lower <- t(stats$lower[,,])
+    names <- sapply(1:dim(simulated_phi)[2],function(i) paste0('Y',i))
+    plot.df <- list()
+    m <- dim(stats$median[,,])[1]#$
+    idx <- 1
+    for(i in 1:m){
+        for(j in 1:m){
+            plot.df[[idx]] <- list('i'=i,'j'=j,'coef'=median[i,j],'upper'=upper[i,j],'lower'=lower[i,j],
+            'true'=simulated_phi[,,][i,j],
+            name.expr=paste0(names[[i]],"%->%",names[[j]]),
+            name.tex=paste0(names[[i]],"$\\rightarrow$",names[[j]]))
+            idx <- idx + 1
+        }
+    }
+    plot.df <- rbindlist(plot.df)
+
+    plot.df <- plot.df[,':='(name.tex = factor(name.tex,levels=rev(name.tex)))]
+    plot.df <- plot.df[,':='(name.expr = factor(name.expr,levels=rev(name.expr)))]
+
+    if(opts_chunk$get("dev") == 'tikz'){
+        plot.df$name = plot.df$name.tex
+    } else {
+        plot.df$name = plot.df$name.expr
+    }
+
+    N.sim.wrong <- nrow(plot.df[(true < lower) | (true > upper)])
+    
+    p <- plot.coefs(simulation.phi.stats.80, names, simulation.phi.stats.90, simulation.phi.stats.95, stat.names=c("80%","90%","95%"),include.all=T,point.shape.name='estimate',ncols=2)
+
+    groups <- unique(plot.df[,.(name)])
+    plot.df[,group:=cut(1:nrow(groups),2)]
+    p <-  p + geom_point(aes(x=name,y=true,shape='value'),data=plot.df,size=1.5) + coord_flip()
+
+
+    p <- p + scale_shape_manual(name='',values=c(estimate=19,value=1), breaks=c("estimate","value"), labels=c("Estimate","True value"))
+    p <- p + ylab("") + xlab("Coefficient") + theme(legend.position='bottom',panel.grid.minor.y=element_blank(),panel.grid.major.y=element_blank())
+    p <- p + scale_x_discrete(labels = parse(text=levels(plot.df$name)),breaks=rev(plot.df$name))#$
+    p <- p + guides(color=guide_legend(direction='horizontal',byrow=F), shape=guide_legend(direction='horizontal'))
+    p <- p + theme(legend.box="vertical",legend.margin=margin())
+    print(p)
+@
+% # p <- p + scale_color_manual(name='',values=c('black','blue'),breaks=c("estimate","value"),labels=c("Estimate","True value"),override.aes=list(color=c('black','blue')))
+
+\Description{Model estimates are shown as points with credible intervals as bars for each pair of variables in our simulation. True values from the simulation are also shown as points.  Most of the time both the true values and the estimates are near zero, but in several cases they are larger. The true points are within the 95\% credible interval in almost all cases showing that the model recovers parameters from simulated data.}
+
+\caption{Results of our simulation study demonstrating that our model can recover true values of $\Phi$ with estimated medians and 95\% credible intervals (CI). True simulated values are shown as open circles and the median and 95\% credible intervals (CI) from our fitted model are solid. }
+\label{fig:simulation_coef}
+\end{figure}
+
+
+% TODO missing paragraph here
+
+Before turning to our empirical analysis, we first present a brief simulation study to demonstrate that our our model can correctly infer all 6 possible commensal relationships included in Table \ref{tab:commensalism}. We simulated an ecological community consisting of 6 hypothetical groups with every possible commensal relationship over 320 weeks, a length of time similar to that available in our empirical data.
+Results from the simulation are shown in Figure \ref{fig:simulation_coef}. For each element of $\Phi$ we show the true simulated value along with the median and 95\% credible intervals (CI) from our fitted model.  In all but \Sexpr{N.sim.wrong} case the true parameter value is within the 95\% CI and even in this case the correct sign is inferred. We conclude from our simulation that our model can infer commensal relationships from data on online groups. 
+
+    
+\section{Empirical case studies: related subreddits}
+\label{sec:case.studies}
+
+\begin{table}[t]
+\caption{Summary of data collected for case studies.}
+\begin{tabular}{c c c c}
+    Case study & \# Groups & Date Range & Time span  \\ \hline
+
+    Seattle-area & \Sexpr{length(unique(seattle.fit.df$subreddit))} & \Sexpr{as.Date(min(seattle.fit.df$week))}---\Sexpr{as.Date(max(seattle.fit.df$week))} & \Sexpr{first(seattle.fit.df[,.N,by=.(subreddit)]$N)} weeks \\
+    Wallpaper & \Sexpr{length(unique(wallpaper.fit.df$subreddit))} & \Sexpr{min(wallpaper.fit.df$week)}---\Sexpr{max(wallpaper.fit.df$week)} &    \Sexpr{first(wallpaper.fit.df[,.N,by=.(subreddit)]$N)} weeks \\
+    Design humor & \Sexpr{length(unique(design.fit.df$subreddit))} & \Sexpr{min(design.fit.df$week)}---\Sexpr{max(design.fit.df$week)} &    \Sexpr{first(design.fit.df[,.N,by=.(subreddit)]$N)} weeks 
+\end{tabular}
+\label{tab:case studies}
+\end{table}
+
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[B]{0.3\textwidth}
+
+    <<seattle.coefs, echo=F, results='asis',fig.width=3.5,fig.height=2.5>>=
+    p <- plot.coefs(seattle.phi.stats.80,sort(unique(seattle.fit.df$subreddit)),
+    seattle.phi.stats.90,seattle.phi.stats.95,c("80%","90%","95%"))
+    print(p)
+@
+\caption{Estimated VAR(1) model for seattle subreddits. Only coefficients where the 80\% CI does not contain 0 are shown.}
+\label{fig:seattle.coef} 
+\Description{Model estimates are shown as points with credible intervals as bars for each pair of Seattle-area subreddits. 14 pairs of variables where 80\% CIs  do not include 0 are shown.  In two cases (seattle $\rightarrow$ eastside and wsu $\rightarrow$ seattle) the points are negative suggesting competition. In the other 12 cases the points are positive.  The 95\% credible intervals general contain zero but in many cases the 90\% credible intervals do not.}
+\end{subfigure} \qquad
+\begin{subfigure}[B]{0.3\textwidth}
+\centering
+<<seattle.irf,results='asis',echo=F,fig.width=3.8,fig.height=3.5,warning=F>>=
+    p <- plot.irf(seattle.irf.forecast.units.data[x<=20],level='80',ncol=3,'90','95',c("80%","90%","95%"),"95",scales='free_y',raw.irf = seattle.irf.forecast.data[x<=20],mu=seattle.med.mu)
+
+    p <- p + guides(color=guide_legend(ncol=2,byrow=TRUE,order=1),linetype=guide_legend(),order=2)
+    p <- p + theme(legend.position=c(0.7,0.15),legend.box='horizontal')
+    print(p)
+@
+\caption{Impulse response functions for relationships between Seattle-area subreddits. Arrows above each subplot show the direction of the represented relationship. Relationships where the 95\% CI does not include the baseline are shown.}
+\label{fig:seattle.irf}
+\Description{7 line plots showing impulse response functions with error bands indicating credible intervals. A dashed line indicates the baseline. In all cases the baseline is outside of the 95\% credible interval. The first plot shows the increase in /r/sealist in response to a shock in /r/mariners. The remaining plots show how different subreddits respond to /r/seahawks. In all cases the responses are positive.}
+\end{subfigure}
+\qquad
+\begin{subfigure}[B]{0.3\textwidth}
+p\includegraphics[width=\textwidth]{figures/seattle_network.pdf}
+\caption{Network diagram of commensal relationships among Seattle-area subreddits. Edges represent impulse response functions where the 90\% CIs  does not include the baseline.}
+\label{fig:seattle.network}
+\Description{Network diagram showing inferred commensal relationships between subreddits. There is one edge representing competition from /r/seahawks to /r/eastside. The remaining nodes are part of a large component connected by mutualism.  There are many edges going out from /r/seahawks and /r/wwu showing their distinctive roles in the ecological community.}
+\end{subfigure}
+
+\caption{Results of VAR(1) model for Seattle-area subreddits. Plot (\subref{fig:seattle.coef}) shows model coefficients, (\subref{fig:seattle.irf}) shows impulse response functions, and (\subref{fig:seattle.network}) shows the network of commensal relationships derived from impulse responses.  The community ecology of Seattle subreddits is relatively dense with several mutualistic relationships.}
+\label{fig:var.seattle}
+\Description{A figure with three subplots.}
+\end{figure*}
+
+Confident that our approach can infer commensal relationships between groups, we turn to the analysis of three sets of related groups on Reddit. These case studies serve to demonstrate our method on real online groups and to surface empirical findings that motivate future directions for research.
+In each case study we analyze time series data from a set of related online groups: subreddits related to the Seattle area, subreddits for sharing wallpaper (i.e., desktop or mobile phone backgrounds), and design and craft humor subreddits.Table \ref{tab:case studies} shows the number of groups and time ranges for each study.  
+In all three case studies our analytic variable is the number of unique posters or accounts making submissions to a given subreddit each week.  Compared to alternatives like the number of commenting accounts or the amount of activity in a subreddit, submitting content is a relatively costly form of participation and indicates a relatively high degree of involvement.
+    
+In each case study we report all off-diagonal elements of $\Phi$ where the 80\% credible interval (CI) does not contain 0, impulse response functions where the 95\% (CI) does not include the baseline, and a network of commensal relationships where edges represent impulse response functions where the 90\% CI does not include the baseline. Because we are interested not in intrinsic growth, but rather in relationships between groups, we do not show diagonal elements of $\Phi$ or IRFs which correspond to loops the network.  Plots showing our estimates for all our coeffients and all impulse response functions are available in the online supplement.
+    
+\subsection{Seattle-area subreddits}
+    
+Our first case study looks at subreddits related to Seattle area.  We collected a pool of \Sexpr{n.seattle.found} subreddits consisting of all subreddits found in the sidebars and Wikis of the /r/seattle subreddit as of July 20th 2020.  In 2016, conflict in /r/seattle led much of the group to migrate to /r/seattlewa.  Because this event constitutes a discontinuous shock that will violate assumptions of our model, we restrict our analysis to the period between \Sexpr{format(as.Date(min(seattle.fit.df$week)),"%B %-dth %Y")} and \Sexpr{format(as.Date(max(seattle.fit.df$week)),"%B %-dth %Y")}, prior to the schism. 
+We examined plots of the time series of the number of unique posters and excluded subreddits without posts in at least \Sexpr{format.percent(min_yearly_nonzero_prop)} of weeks in each year of the study.
+
+%The Seattle-area subreddits include the general-purpose \emph{/r/Seattle}, Seattle-area sports teams \emph{/r/Seahawks}, \emph{/r/SoundersFC}, and \emph{/r/Mariners}, subreddits for buying and selling (\emph{/r/sealist}) and looking for work (\emph{/r/Seajobs}), for broader geographic areas like (e.g. \emph{/r/Cascadia} and \emph{/r/Washington}), for other cities in Washington State (e.g. \emph{/r/Spokane}, and \emph{/r/Bellingham}) and universities in Washington State (e.g. \emph{/r/udub}, \emph{/r/wsu}, \emph{/r/wwu}).
+     
+We account for sports-related seasonality in \emph{/r/seahawks}, \emph{/r/soundersfc},  \emph{/r/mariners}, \emph{/r/udub} and \emph{/r/wsu} using a categorical variable with 5 levels: if a week is during a sports teams' (1) regular season, (2) post-season, (3) if the team has a pre-season game, (4) if they have an off-season friendly or it is the post season and they have already been eliminated from contention, and (5) if their sport is out of season.  For the university groups we only account for NCAA American football which is the only sport which appears to drive significant activity.
+We obtained NFL data from the nflgame-redux python package,\footnote{\url{https://pypi.org/project/nflgame-redux/}} MLB data from \url{retrosheets.org}, MLS data from the engsoccerdata in R\footnote{\url{https://cran.r-project.org/web/packages/engsoccerdata/index.html}} and from Wikipedia articles on SoundersFC seasons, and NCAA football from college football reference.\footnote{obtained from \url{https://gamethread.redditcfb.com/gamedb.php}} 
+The subreddits \emph{/r/udub}, \emph{/r/wwu} and \emph{/r/wsu} also exhibit seasonality with the academic calendar so we include an additional variable indicating if the university is in session according to historical course calendars and registrar websites.
+
+    % bar chart with well-estimated coefficients (at a relatively low level)
+    % impulse response functions where CI excludes 0 
+    % graph showing impulse responses
+
+%While the resource dependence framework is oriented to the scarcity of participant's time and effort and suggests that such groups may be competitors,
+Our VAR analysis of Seattle-area subreddits reveals a large number of  mutualistic relationships.  
+Figure \ref{fig:seattle.coef} shows median values and credible intervals for elements of the inferred community matrix where the 80\% CI does not contain 
+0. While a handful of coefficients are negative at this credibility level, the vast majority are positive.  Figure \ref{fig:seattle.irf} shows several impulse response functions where the 95\% CI indicates evidence of mutualism.
+For example, the top-left subplot shows that the commensalism from \emph{/r/Mariners} to \emph{/r/sealist} is strong enough that, for the median week, a sudden increase in the number of unique posters by about \Sexpr{round(mariners.shock.size,1)} in \emph{/r/Mariners} will most likely drive an increase in \emph{/r/sealist} of almost 1 unique poster per week.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[B]{0.3\textwidth}
+\centering
+<<wallpaper.coefs, echo=F, results='asis',fig.width=3.5,fig.height=2>>=
+        p <- plot.coefs(wallpaper.phi.stats.80, unique(wallpaper.fit.df$subreddit), wallpaper.phi.stats.90,wallpaper.phi.stats.95,c("80%","90%","95%")) #$
+#    p <- p + theme(panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank())
+
+    p <- p + theme(legend.position='bottom',legend.box.just='left',legend.direction='horizontal',legend.box.margin=margin(0,40,0,0))
+    print(p)
+@
+
+\caption{Estimated VAR(1) model for wallpaper subreddits. Relationships where the 80\% CI does not include the baseline.}
+\label{fig:wallpaper.coef}    
+\Description{Model estimates are shown as points with credible intervals as bars for each pair of Wallpaper subreddits. 4 pairs of variables where 80\% CIs do not include 0 are shown.    There are four relationships shown (/r/iphonewallpapers $\rightarrow$ /r/nsfw\_wallpapers is negative, nsfw_wallpapers $\rightarrow$ /r/iphonewallpapers is positive, 
+/r/verticalwalpapers $\rightarrow$ /r/wallpaperrequests is positive, 
+/r/wallpaperrequests $\rightarrow$ /r/verticalwallpapers is negative). /r/wallpaperrequests $\rightarrow$ /r/verticalwallpapers is the only relationship where the 95\% credible interval does not contain 0.}
+\end{subfigure} \quad
+\begin{subfigure}[B]{0.3\textwidth}
+\centering
+<<wallpaper.irf,results='asis',echo=F,fig.width=3,fig.height=3,warning=F>>=
+    p <- plot.irf(wallpaper.irf.forecast.units.data[x<=20],level='80',ncol=3,'90','95',c("80%","90%","95%"),"95",scales='free_y',raw.irf = wallpaper.irf.forecast.data[x<=20],mu=wallpaper.med.mu)
+
+    p <- p + guides(color=guide_legend(ncol=2,byrow=TRUE,order=1),linetype=guide_legend(),order=2)
+    p <- p + theme(legend.position='bottom',legend.box='horizontal')
+    print(p)
+@
+\caption{Impulse response functions for relationships between wallpaper subreddits. The only relationships where the 95\% CI does not include the baseline is shown.}
+\label{fig:wallpaper.irf}
+\Description{A line plot showing an impulse response function with error bands indicating credible intervals. A dashed line indicates the baseline. The plot shows a decrease from about 5 unique posters to about 3 unique posters in /r/verticalwallpapers in response to an increase in /r/wallpaperrequests.}
+\end{subfigure} \qquad 
+\begin{subfigure}[B]{0.3\textwidth}
+\includegraphics[width=\textwidth]{figures/wallpaper_network.pdf}
+\caption{Network diagram of commensal relationships among wallpaper sharing subreddits. Edges represent impulse response functions where the 90\% CI does not contain zero.}
+\label{fig:wallpaper.network}
+\Description{A network diagram showing inferred commensal relationships between wallpaper subreddits.  There is a single competitive edge from /r/wallpaperrequests to /r/verticalwallpapers.}
+\end{subfigure}
+
+\caption{Results of VAR(1) model for wallpaper subreddits. Plot (\subref{fig:wallpaper.coef}) shows model coefficients, and (\subref{fig:wallpaper.network}) shows the network of commensal relationships derived from impulse responses and (\subref{fig:wallpaper.irf}) shows the impulse response functions where the 95\% CI excludes the baseline. The ecological community of wallpaper subreddits is sparse with few commensal relationships between different groups.}
+\label{fig:var.wallpaper} 
+\Description{A figure with three sub plots.}
+\end{figure*}
+
+
+
+As shown in Figure \ref{fig:seattle.network}, the commensal network of Seattle-area subreddits is dense with mutualistic relationships revealing a tightly connected ecological community characterized by positive spill-overs. From the network we can also see how certain groups play outsized roles. The growth of \emph{/r/Seahawks} in particular is strongly associated with growth of a number of other subreddits, especially smaller regional subreddits like \emph{/r/Bellingham}, \emph{/r/Oympia} and \emph{/r/Spokane}.
+Though we do not measure the trajectories of individual accounts, the  network suggests people may be drawn to Seattle-area subreddits by way of /r/Seahawks. 
+For example, it may be relatively common for Seahawks fans from Bellingham to come to Reddit to discuss the Seahawks but then find that activity on the Bellingham subreddit is relavent to their interests.  
+Influxes of sports fans from communities like \emph{/r/Seahawks} also appear to promote the growth of a wider array of  sports subreddits like \emph{/r/SoundersFC}. 
+
+While the mutualistic relationships associated with sports fan groups are those most confidently inferred by our model, many additional mutualistic relationships are visible in the network in Figure \ref{fig:seattle.network}.
+One intersting example is \emph{/r/wwu}, associated with Western Washington University in the town of Bellingham.  From Figure \ref{fig:seattle.coef}, we see that a direct relationship from \emph{/r/wwu} to \emph{/r/Bellingham} is plausible.  The network suggests that when posters become active in \emph{/r/wwu}, they may later become posters to \emph{/r/Bellingham}, the state-wide \emph{/r/Washington} subreddit, and more. 
+%Perhaps University students attract their friends to groups related to other universities (\emph{/r/udub}, \emph{/r/wsu}) or other college towns in Washington (e.g. \emph{/r/Olympia}).
+
+% \qquad
+% \subfloat[Impulse response functions for relationships between wallpaper subreddits.  Shaded bands from light to dark indicate 95\%, 90\% and 80\% credible intervals. All relationships shown are at least modestly probable as the as the 80\% band does not include 0. Yet none are very likely as the 95\% includes 0. \label{fig:wallpaper.irf}]{
+% <<wallpaper.irf,results='asis',echo=F,fig.width=3.5,fig.height=3,out.width="0.3\\textwidth",warning=FALSE>>=
+%     p <- plot.irf(wallpaper.irf.data,level='95',ncol=2,'90','95',c("80%","90%","95%"))
+%     p <- p + guides(color=guide_legend(ncol=2,byrow=TRUE))
+%     p <- p + theme(legend.position=c(0.95,0.12),legend.direction='vertical',legend.justification='right',legend.box.just='left')
+%     p <- p + xlim(c(0,20))
+%     p 
+%     @
+%   }
+
+
+\subsection{Wallpaper sharing subreddits}
+
+Our second case study looks at a set of subreddits for sharing wallpaper background images.  The wallpaper sharing groups are interesting because  many seem superficially very similar. For example \emph{/r/wallpaper} and
+\emph{/r/wallpapers} are both general purpose desktop wallpaper subreddits and  \emph{/r/mobilewallpaper} and
+\emph{/r/phoneallpapers} are based around wallpapers for mobile devices. 
+The high degree of similarity between the content shared in these groups suggests that they may compete.
+    
+Using Pushshift submissions data, we selected all \Sexpr{n.wallpaper.found}  subreddits including ``wallpaper'' in their names. 
+As with Seattle area subreddits, we excluded groups with lower levels of activity by requiring posts in at least \Sexpr{format.percent(0.4)} of weeks in each year of our analysis.\footnote{We chose a lower level of activity as our threshold in our study of Seattle because we were interested in the role of some smaller subreddits like \emph{/r/seajobs} in the community ecology of Seattle area subreddits.}  We analyze data from between \Sexpr{format(as.Date(min(seattle.fit.df$week)),"%B %-dth %Y")} and \Sexpr{format(as.Date(max(seattle.fit.df$week)),"%B %-dth %Y")}.
+
+While we found many mutualistic relationships in the case of Seattle-area subreddits, our analysis of wallpaper-sharing subreddits reveals very few commensal relationships at all. Only four out of the 210 non-diagonal elements of $\Phi$ shown in Figure \ref{fig:wallpaper.coef} have an 80\% CI that does not contain 0. In only one case does the 95\% CI of the impulse response functions not contain the baseline. Even though the content shared in these groups is similar, they have little influence on each other's membership size over time. 
+
+This shows that even among groups with apparently similar content, commensal relationships may not even exist.  Even though this case study covered the longest time period and had fewer groups than our study of Seattle-area subreddits---resulting in more statistical power---we found evidence of only one competitive relationship and weak evidence of three other commensal relationships.
+
+\subsection{Design and craft humor subreddits}
+
+\begin{figure*}[t]
+\begin{subfigure}[B]{0.3\textwidth}
+
+    <<design.coefs, echo=F, results='asis',fig.width=3.5,fig.height=3.6>>=
+        p <- plot.coefs(design.phi.stats.80, sort(unique(design.fit.df$subreddit)), design.phi.stats.90,design.phi.stats.95,c("80%","90%","95%"))
+        p <- p + theme(legend.box.margin=margin(0,40,0,0),legend.direction='horizontal')
+        print(p)
+    @
+
+\caption{Estimated VAR(1) model for design and craft humor subreddits.  Only coefficients where the 80\% CI does not include 0 are shown.} 
+\label{fig:design.coef}
+\Description{Model estimates are shown as points with credible intervals as bars for each pair of design and crafts humor subreddits. In 14 cases the 80\% credible interval does not contain 0. In 3 cases the estimates are negative and they are positive in the rest.}
+\end{subfigure}
+\qquad
+\begin{subfigure}[B]{0.3\textwidth}
+<<design.irf,results='asis',echo=F,fig.width=3.7,fig.height=4>>=
+    p <- plot.irf(design.irf.forecast.units.data[x<=20],level='80',ncol=2,'90','95',c("80%","90%","95%"),"95",scales='free_y',raw.irf = design.irf.forecast.data[x<=20],mu=design.med.mu)
+    names <- unique(design.fit.df$subreddit)
+#    p <- p + guides(color=guide_legend(ncol=1,byrow=TRUE))
+    p <- p + theme(legend.position='bottom',legend.direction='horizontal')
+    p
+@
+
+\caption{Impulse response functions for design and craft humor subreddits.  Relationships where the 95\% CI does not include the baseline are shown.}
+\label{fig:design.irf}
+\Description{6 line plots with impulse responses, credible intervals, and baselines among design and craft humor subreddits. There are 5 relationships where the responses are positive and 1 (from /r/onejob to /r/assholdesign) where the response is negative. }
+\end{subfigure}
+\qquad
+\begin{subfigure}[B]{0.3\textwidth}
+\includegraphics[width=\textwidth]{figures/design_network.pdf}
+\caption{Network diagram of commensal relationships among humorous design and craft humor subreddits. Edges represent IRFs where the 90\% CI does not include the baseline.}
+\label{fig:design.network}
+\Description{Network diagram of commensal relationships between design and craft humor subreddits. There are 4 isolated subreddits that have no relationships. The remaining nodes are part of a mutualistic connected component. There are three competitive edges revealing predatory relationships involving /r/onejob, /r/assholedesign, and /r/notmyjob. }
+\end{subfigure}
+\caption{Results of VAR(1) model for design and craft humor subreddits. Plot (\subref{fig:design.coef}) shows model coefficients, (\subref{fig:design.irf}) shows impulse response functions, and (\subref{fig:design.network}) shows the network of commensal relationships derived from impulse responses. This ecological community is characterized by a mix of mutualistic and competitive relationships.} \label{fig:var.design}
+\Description{A figure with 3 subplots}
+\end{figure*}
+
+The final case study is a set of subreddits for humorous sharing of design and crafts.  Subreddits typically place boundaries around the kind of content that is appropriate for their groups in rules posted in their sidebars or wikis \citep{chandrasekharan_internets_2018, fiesler_reddit_2018}.  Often these rules suggest alternative subreddits for submitting content that is not a good fit for a particular subreddit.  We are interested in how such boundaries and links may lead to commensal relationships between groups so we collected design and craft humor subreddits from a thread in \emph{/r/assholedesign} discussing a flowchart for deciding where to post content.\footnote{\url{https://www.reddit.com/r/assholedesign/comments/a02ezp/meta\_is\_it\_asshole\_design\_a\_handy\_flowchart/}}  We extended our search for related subreddits by reading the wikis and sidebars of \emph{/r/assholedesign} and \emph{/r/crappydesign}.  This search yielded \Sexpr{n.design.found} subreddits. We excluded \Sexpr{n.design.excluded} subreddits that were created much later than the rest and analyze the period from \Sexpr{format(as.Date(min(design.fit.df$week)),"%B %-dth %Y")} to \Sexpr{format(as.Date(max(design.fit.df$week)),"%B %-dth %Y")} during which all the remaining subreddits had submissions.
+
+ Similar to our analysis of Seattle-area subreddits, our analysis of design and craft humor subreddits reveals a number of commensal ties. However, the portrait of the ecological community that emerges is quite different from both other cases. 
+ A shown in Figure \ref{fig:design.coef}, we estimate a number of negative coefficients indicating the existence of competitive relationships. Figure \ref{fig:design.irf} shows impulse response functions for relationships inferred by our model where the 95\% CI does not include the baseline.
+ The bottom-right plot in Figure \ref{fig:design.irf} shows how, according to our model a sudden large increase of about \Sexpr{round(onejob.shock.size)} unique posters in \emph{/r/onejob} can be expected to drive a decrease of about 5 unique posters in  \emph{/r/assholedesign} in a median week.
+ 
+ Figure \ref{fig:design.network} shows the network of commensal relationships between the 10 design and craft humor subreddits.  As with the Seattle-area subreddits, we find relatively few reciprocal competitive or mutualistic relationships where one group is helped (harmed) by another and the second is helped (harmed) by the first. Interestingly, while the network contains more mutualistic ties than competitive ones, it contains three predatory relationships where one group benefits from an increase in the size of the other, but the other group is hurt by an increase in the first. 
+The subreddit \emph{/r/onejob} is a predator of \emph{/r/assholedesign} as increases in the size of \emph{/r/onejob} predict subsequent decreases in the size of \emph{/r/assholedesign} even as increases in the size of \emph{/r/assholedesign} predict increases in the size of \emph{/r/onejob}.  Similarly, \emph{/r/onejob} is predator of \emph{/r/notmyjob} and also of \emph{/r/assholedesign}. 
+
+%Finally, while our first two case studies did not provide a clear demonstration of competitive relationships between online groups, in our study of humorous  design and artistry subreddits we found both   competitive and  mutualistic relationships between online groups. 
+
+It is interesting that we do not find commensal relationships between the three groups that were most visibly differentiated in guidelines about what kind of content belongs in each group (\emph{/r/assholedesign}, \emph{/r/mildlyinfuriating}, and \emph{/r/crappydesign}).  That we do not find competition between these communities is consistent with the prediction of ecological theory that partitioning of resources (here topics or styles of content) between groups may reduce competition \cite{aldrich_organizations_2006, carroll_concentration_1985}.  
+\section{Bayesian Poisson Vector Autoregression Model specification}
+\label{ap:model}
+Below is the full prior specification of our model.   $Y_t$ is Poisson distributed with parameter $\lambda_t$ having a multivariate normal distribution which evolves over time according to a VAR process.  More information on our models, including our prior specifications is available in the online supplement. We use a weakly informative hierarchical prior for the elements of $B_0$.  
+
+In developing our model we found that enforcing stationarity through the Heaps prior improved forecast accuracy and helped us fit larger VAR models including more online groups \cite{heaps_enforcing_2020}
+We use the Heaps exchangeable prior over stationary values of $\Phi$ , which places separate hierarchical normal priors on the diagonal and off-diagonal elements of an unconstrained matrix that is homeomorphic to $\Phi$. Our choice of hyperparameters follows the recommendations of \cite{heaps_enforcing_2020}, but we chose a modestly more diffuse hyperprior for the means to increase the sensitivity of our model.
+
+
+\begin{align}
+ Y_t &\sim \mathrm{Poisson}(e^{\lambda_t}) & \lambda_t &\sim \mathrm{MVN}(\mu_t, \Sigma) \label{eq:bvar} \\
+ \mu_t &= B_0 + \Phi \mu_{t-1} & \Phi &\sim \mathrm{Heaps}(1,\sqrt{3}, 0, \sqrt{3},2.1,\frac{1}{3})  \nonumber \\
+\Sigma &\sim IW(m+3,I(m)) & B_0 &\sim \mathrm{N}(\mu_{B_0}, \sigma_{B_0}) \nonumber \\ \mu_{B_0} &\sim \mathrm{N}(0,7) & \sigma_{B_0} &\sim \Gamma(4,3) \nonumber \\
+\mathbf{B} &\sim N(0,2) & & \nonumber
+\end{align}
+ 
