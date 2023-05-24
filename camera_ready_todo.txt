@@ -1,7 +1,0 @@
-[] try to avoid repetition.
-[X] give a more clear introduction to the 2 parts.
-[X] edit "the usefulness of a communication network increases as more people join it" to refer to network effects.
-[X] more explicit discussion of limitations of traditional population ecology methods in the discussion section
-[X] explain why part 2 was needed.
-[X] emphasize support for H2 / R2 in discussion.
-[X] explain why we analyze specific clusters and discuss scalability and computational costs and how cluster quality might affect results.
